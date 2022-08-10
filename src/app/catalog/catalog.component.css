@@ -206,7 +206,7 @@
   margin: 0 auto;
   font-family: Snell;
 }
-.content{
+.catalog{
   position: relative;
   width: 100%;
   height: 2200px;
@@ -217,14 +217,14 @@
   align-items: center;
   margin:0 45%;
 }
-.main-menu{
+.catalog__menu{
   width: 70%;
   height: 900PX;
   margin: 0 auto;
 
 
 }
-.card-text p {
+.card__discription p {
 
   font-weight: bold;
 
@@ -234,7 +234,7 @@
 
 }
 
-.card-under p {
+.card__button p {
 
   font-weight: bold;
 
@@ -243,7 +243,7 @@
 
 
 }
-.menu-card{
+.catalog__container{
 
   width: 100%;
   height: 50%;
@@ -253,7 +253,7 @@
 
 }
 
-.card{
+.catalog__card{
 
   width: 33%;
   height: 100%;
@@ -262,12 +262,12 @@
 
 
 
-.card img{
+.catalog__card img{
 
   max-width: 100%;
   max-height: 50%;
 }
-.card-text{
+.card__discription{
 
 
   width: 70%;
@@ -276,16 +276,16 @@
 
 
 
-.card-under{
+.card__button{
   width: 100%;
   height: 25%;
 }
-.price{
+.card__price{
   width: 100%;
   height: 25%;
 }
 
-.button{
+.card__button button{
 
   width: 50%;
   height: 35%;
@@ -308,7 +308,7 @@
   background: linear-gradient(90deg, #f5da8b,#e9a263,#e47449);
 
 }
-.text-menu{
+.catalog__title{
   text-align: center;
 }
 
@@ -403,38 +403,38 @@ footer{
 
 }
 
-.container-footer-all{
+.footer__container{
   width: 100%;
   max-width: 1200px;
   margin: auto;
   padding: 40px;
 }
 
-.container-body{
+.footer__body-flex{
   display: flex;
   justify-content: space-between;
 }
 
-.colum1{
+.footer__text{
   max-width: 400px;
 }
 
-.colum1 h1{
+.footer__text h1{
   font-size: 22px;
 }
 
-.colum1 p{
+.footer__text p{
   font-size: 14px;
   color: #C7C7C7;
   margin-top: 20px;
 }
 
-.colum2{
+.colum{
   max-width: 400px;
 
 }
 
-.colum2 h1{
+.colum h1{
   font-size: 22px;
 }
 
@@ -454,11 +454,11 @@ footer{
   color: #C7C7C7;
 }
 
-.colum3{
+.colum{
   max-width: 400px;
 }
 
-.colum3 h1{
+.colum h1{
   font-size: 22px;
 }
 
@@ -509,16 +509,16 @@ footer{
 
 @media screen and (max-width: 1100px){
 
-  .container-body{
+  .footer__body-flex{
     flex-wrap: wrap;
   }
 
-  .colum1{
+  .footer__text{
     max-width: 100%;
   }
 
-  .colum2,
-  .colum3{
+  .colum,
+  .colum{
     margin-top: 40px;
   }
 
@@ -541,32 +541,32 @@ footer{
 
 @media  (max-width: 1200px) {
 
-  .menu-card{
+  .catalog__container{
     margin: 15px 0;
   }
-  .main-menu {
+  .catalog__menu{
     height: 1200px;
     width: 100%;
   }
 
 
-  .card {
+  .catalog__card {
 
   }
-  .card-text{
+  .card__discription{
     height: 35%;
     margin: 0 auto;
   }
 
-  .card-under{
+  .card__button{
     font-size: calc(2em + 0.5vw);
   }
-  .price{
+  .card__price{
     width: 50%;
     margin: 0 auto;
     height: 50%;
   }
-  .button{
+  .card__button button{
     width: 85%;
   }
 
