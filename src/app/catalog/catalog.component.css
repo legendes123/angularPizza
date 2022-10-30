@@ -226,11 +226,9 @@
 }
 .card__discription p {
 
-  font-weight: bold;
 
   font-size: calc(0.7em + 0.5vw);
-  font-family:Snell  ;
-
+  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -239,8 +237,7 @@
   font-weight: bold;
 
   font-size: calc(0.7em + 0.5vw);
-  font-family:Snell  ;
-
+  font-family: 'Montserrat', sans-serif;
 
 }
 .catalog__container{
@@ -285,6 +282,10 @@
   height: 25%;
 }
 
+.card__price p{
+
+  font-family: 'Montserrat', sans-serif;
+}
 .card__button button{
 
   width: 50%;
@@ -568,7 +569,9 @@ footer{
   }
   .card__button button{
     width: 85%;
+    font-size: calc(0.3em + 0.5vw);
   }
+
 
 
 }

@@ -78,12 +78,14 @@ display: inline-flex;
 }
 .header__nav a {
   font-style: normal;
-font-weight: bold;
-  font-size: calc(1.5em + 1vw);
+  font-weight: bold;
+
+  font-size: calc(2em + 1vw);
   color: black;
   text-decoration: none;
   height: 15%;
   white-space: nowrap;
+  font-family: 'Montserrat', sans-serif;
 
 
 }
@@ -158,16 +160,19 @@ font-weight: bold;
 }
 .about__title_bold{
   font-size: calc(1.5em + 1vw);
-  font-weight: bold;
-
+  font-family: 'Montserrat', sans-serif;
 }
 .text-costume_orange{
   font-size: calc(2em + 1vw);
   font-weight: bold;
   color: #eaa242;
+  font-family: 'Montserrat', sans-serif;
+
 }
 .text-costume_normal{
-  font-size: calc(1em + 1vw);
+  font-size: calc(0.7em + 1vw);
+  font-family: 'Montserrat', sans-serif;
+
 
 }
 .about__button-container{
@@ -206,7 +211,10 @@ text-align: center;
   text-align: center;
   font-size: calc(0.5em + 0.5vw);
   margin: 0 auto;
-  font-family: Snell;
+}
+.about__p p {
+  font-family: 'Montserrat', sans-serif;
+
 }
 .catalog{
   position: relative;
@@ -333,6 +341,7 @@ footer{
 }
 
 .footer__text p{
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: #C7C7C7;
   margin-top: 20px;
@@ -350,6 +359,7 @@ footer{
 .row{
   margin-top: 20px;
   display: flex;
+
 }
 
 .row img{
@@ -361,6 +371,7 @@ footer{
   margin-top: 10px;
   margin-left: 20px;
   color: #C7C7C7;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .colum{
@@ -385,6 +396,7 @@ footer{
   margin-top: 10px;
   margin-left: 20px;
   max-width: 140px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -493,7 +505,7 @@ footer{
   }
   .about__logo{
     width: 30%;
-    margin: 0 auto;
+    margin: 1% auto;
     height: 50%;
   }
   .about__button-container{
@@ -520,5 +532,11 @@ footer{
   .text-costume_normal{
     font-size: calc(0.7em + 1vw);
 
+  }
+  .about__button{
+    margin: 25px;
+  }
+  .about__p{
+    font-size: calc(0.4em + 0.5vw);
   }
 }
